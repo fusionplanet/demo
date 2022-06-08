@@ -1,5 +1,5 @@
 // https://stackoverflow.com/a/31581206
-export const formatCcy = (num: number, fraction: number = 2): string => {
+export const formatCcy = (num: number, fraction: number = 0): string => {
     return '$' + num.toLocaleString(undefined, {minimumFractionDigits: fraction});
 }
 
